@@ -21,7 +21,7 @@ sites/*/services*.yml
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-
+sites/default/*
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
 
@@ -29,7 +29,7 @@ sites/simpletest
 # or delete the previous settings and uncomment the following ones, instead.
 
 # Ignore configuration files that may contain sensitive information.
-# */settings*.php
+ */settings*.php
 
 # Ignore paths that contain user-generated content.
 # */files
@@ -37,3 +37,4 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+sites/dev.nailservice.com/settings.php
